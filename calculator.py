@@ -43,7 +43,7 @@ while True:
 
     while True:        
 
-        whatDo = input("Thank You For Putting Numbers\n\n Let Me Know What You Want To Do\n(Add(+)/substract(-)/Multiply(*)/Division(/): ").strip()
+        whatDo = input("Thank You For Putting Numbers\n\n Let Me Know What You Want To Do\n(Add(+)/substract(-)/Multiply(*)/Division(/)/Modulas(%): ").strip()
         if (whatDo == "+"):
             sum()
         elif (whatDo == "-"):
