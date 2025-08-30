@@ -1,5 +1,5 @@
 import random
-chars = "qwertyuiopaasdfghjklzcxvbbmn>-=+@#$^&*(*"
+chars = "qwertyuiopaasdfghjklzcxvbbmn>=+@#$^&*(*"
 
 def gen_password(n):
     password = ""
@@ -8,4 +8,5 @@ def gen_password(n):
     return password
 n = int(input("Enter the range of your password for generating : "))
 print(gen_password(n))
+
         
